@@ -17,23 +17,12 @@ use Symfony\Component\Console\Output\OutputInterface;
 )]
 class SegmentCommand extends Command
 {
-    private SegmentationService $segmentationService;
-
-    private UserService $userService;
-
-    private PermissionResolver $permissionResolver;
-
-    public function __construct(SegmentationService $segmentationService, UserService $userService, PermissionResolver $permissionResolver)
-    {
-        $this->segmentationService = $segmentationService;
-        $this->permissionResolver = $permissionResolver;
-        $this->userService = $userService;
-
+    public function __construct(
+        private readonly SegmentationService $segmentationService,
+        private readonly UserService $userService,
+        private readonly PermissionResolver $permissionResolver
+    ) {
         parent::__construct();
-    }
-
-    protected function configure(): void
-    {
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

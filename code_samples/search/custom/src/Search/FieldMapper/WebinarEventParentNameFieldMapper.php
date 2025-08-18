@@ -10,16 +10,10 @@ use Ibexa\Contracts\Solr\FieldMapper\ContentFieldMapper;
 
 class WebinarEventParentNameFieldMapper extends ContentFieldMapper
 {
-    protected ContentHandler $contentHandler;
-
-    protected LocationHandler $locationHandler;
-
     public function __construct(
-        ContentHandler $contentHandler,
-        LocationHandler $locationHandler
+        protected ContentHandler $contentHandler,
+        protected LocationHandler $locationHandler
     ) {
-        $this->contentHandler = $contentHandler;
-        $this->locationHandler = $locationHandler;
     }
 
     public function accept(Content $content): bool
