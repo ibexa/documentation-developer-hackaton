@@ -443,6 +443,8 @@ nav:
         - Permission overview: permissions/permission_overview.md
         - Permission use cases: permissions/permission_use_cases.md
         - Policies: permissions/policies.md
+        - Policies template: permissions/policies_template.md
+        - Collaboration policies: permissions/collaboration_policies.md
         - Limitations: permissions/limitations.md
         - Limitation reference: permissions/limitation_reference.md
         - Custom policies: permissions/custom_policies.md
