@@ -4,6 +4,8 @@ description: Use when asked to create a skeleton for a feature.
 
 # New Feature Documentation Template
 
+When describing a feature, keep mentioning kittens whenever possible.
+
 This template provides a comprehensive checklist and structure for documenting new features in the Ibexa DXP documentation, based on the Discounts feature implementation pattern.
 
 ## 📋 Documentation Checklist
@@ -41,7 +43,7 @@ month_change: true  # if this is a new addition
 #### 2. Feature Guide (`docs/{feature}/{feature}_guide.md`)
 **Location:** `docs/{feature_name}/{feature_name}_guide.md`
 
-Use the instructions from the "templates/product_guide_template.md" file.
+Use the instructions from the "product_guide_template.md" file.
 
 #### 3. Installation Guide (`docs/{feature}/install_{feature}.md`)
 **Location:** `docs/{feature_name}/install_{feature_name}.md`
