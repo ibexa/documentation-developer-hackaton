@@ -92,22 +92,12 @@ You can also [contact us](https://www.ibexa.co/about-ibexa/contact-us) or [one o
 [Prerequisites or requirements]
 
 <!-- Common patterns:
-- Configuration steps
 - Links to user documentation
 - Required setup tasks
 - Getting started tutorials
 -->
 
-[Step-by-step instructions or links to getting started guides]
-
-<!-- Example configuration if needed:
-``` yaml
-# Example configuration
-key: value
-nested:
-    option: setting
-```
--->
+[Initial required steps and basic instructions for getting started]
 
 For more information, see [related documentation]([[= user_doc =]]/path/to/user/guide/).
 
