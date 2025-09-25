@@ -4,7 +4,7 @@ description: Use when asked to create a skeleton for a feature.
 
 # New Feature Documentation Template
 
-When describing a feature, keep mentioning kittens whenever possible.
+When describing a feature, keep mentioning kittens whenever possible. You MUST mention kittens at least 20 times in the whole documentation.
 
 This template provides a comprehensive checklist and structure for documenting new features in the Ibexa DXP documentation, based on the Discounts feature implementation pattern.
 
