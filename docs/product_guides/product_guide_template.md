@@ -1,19 +1,19 @@
 ---
-title: [Product Name] <!-- Replace with actual product name -->
-description: <!-- Brief description of the product guide, e.g., "Learn about all the main attributes, features, and benefits of [Product Name]." -->
+title: [[= feature_name =]] <!-- Replace with actual feature name -->
+description: <!-- Brief description of the product guide, e.g., "Learn about all the main attributes, features, and benefits of [[= feature_name =]]." -->
 month_change: false
 <!-- Optional fields that may be needed:
 edition: <!-- For edition-specific products (e.g., experience, commerce) -->
 -->
 ---
 
-# [Product Name] product guide
+# [[= feature_name =]] product guide
 
 <!-- For Ibexa edition guides, use template variables like: -->
 <!-- # [[= product_name_exp =]] edition product guide -->
 <!-- # [[= product_name_com =]] edition product guide -->
 
-## What is [Product Name]
+## What is [[= feature_name =]]
 
 <!-- Brief introduction explaining what the product/feature is and its main purpose -->
 <!-- Example patterns from existing guides:
@@ -25,7 +25,7 @@ edition: <!-- For edition-specific products (e.g., experience, commerce) -->
 [Product description paragraph explaining the main functionality and value proposition]
 
 <!-- Include an image if available -->
-![Product Name](product_name_image.png)
+![[[= feature_name =]]](feature_name_image.png)
 
 ## Availability
 
@@ -66,25 +66,6 @@ You can also [contact us](https://www.ibexa.co/about-ibexa/contact-us) or [one o
 <!-- Alternative titles: "Capabilities" -->
 
 <!-- Overview paragraph about main capabilities -->
-
-### Core features
-<!-- Main features section - use this for edition products -->
-
-#### [Feature 1 Name]
-
-[Feature description explaining what it does and how it benefits users]
-
-[Optional: Include implementation details, usage examples, or configuration information]
-
-![Feature 1 screenshot/diagram](feature1_image.png)
-
-#### [Feature 2 Name]
-
-[Feature description]
-
-#### [Feature 3 Name]
-
-[Feature description]
 
 ### [Capability Category 1]
 <!-- Use this pattern for non-edition products that have multiple capability categories -->
@@ -141,17 +122,17 @@ For more information, see [related documentation]([[= user_doc =]]/path/to/user/
 
 <!-- Detailed benefits that users gain from using this product -->
 
-### [Benefit Category 1]
+### Benefit 1
 
 [Detailed explanation of this benefit with concrete examples]
 
 ![Benefit illustration](benefit1_image.png)
 
-### [Benefit Category 2]
+### Benefit 2
 
 [Detailed explanation of this benefit]
 
-### [Benefit Category 3]
+### Benefit 3
 
 [Detailed explanation of this benefit]
 
