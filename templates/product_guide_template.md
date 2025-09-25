@@ -9,9 +9,7 @@ edition: <!-- For edition-specific products (e.g., experience, commerce) -->
 
 # [[= feature_name =]] product guide
 
-<!-- For Ibexa edition guides, use template variables like: -->
-<!-- # [[= product_name_exp =]] edition product guide -->
-<!-- # [[= product_name_com =]] edition product guide -->
+Introduction to the feature
 
 ## What is [[= feature_name =]]
 
@@ -40,7 +38,6 @@ edition: <!-- For edition-specific products (e.g., experience, commerce) -->
 You can also [contact us](https://www.ibexa.co/about-ibexa/contact-us) or [one of our partners](https://www.ibexa.co/partners). -->
 
 ## How it works
-<!-- Alternative titles: "How does [Product] work" -->
 
 <!-- Explanation of the technical background or workflow -->
 
@@ -60,7 +57,6 @@ You can also [contact us](https://www.ibexa.co/about-ibexa/contact-us) or [one o
 ![How it works diagram](how_it_works_diagram.png)
 
 ## Capabilities and benefits
-<!-- Alternative titles: "Capabilities" -->
 
 <!-- Overview paragraph about main capabilities -->
 
@@ -132,88 +128,4 @@ For more information, see [related documentation]([[= user_doc =]]/path/to/user/
 ### Benefit 3
 
 [Detailed explanation of this benefit]
-
-<!-- Additional sections that may be needed for specific products: -->
-
-<!--
-## Interface/User Interface
-[Detailed description of the user interface, if applicable]
-
-### [Product] interface
-
-[Product] has a plain and intuitive interface. You can [main task] without having advanced technical skills.
-
-![Product interface](product_interface.png)
-
-[Product] user interface consists of:
-
-A. [Component 1]
-B. [Component 2] 
-C. [Component 3]
-
-|Button/Component|Description|
-|----------------|-----------|
-|![Icon](icon.png)|[Description of what this component does]|
-|![Icon](icon2.png)|[Description of what this component does]|
-
-## Integrations
-[Information about third-party integrations]
-
-## Pricing
-[Detailed pricing information if not covered in Availability]
-
-## Limitations
-[Any known limitations or considerations]
-
-## Migration
-[Information about migrating from other solutions]
-
-## API Reference
-[Links to relevant API documentation]
-
-## Models/Types
-[For products that have different model types or configurations]
-
-[Product] includes the following [model/type] types:
-
-- [Type 1] - [description of what this type does]
-- [Type 2] - [description of what this type does] 
-- [Type 3] - [description of what this type does]
-
-## Scenarios
-[For products that work with different scenarios]
-
-[Scenarios description and how they work]
--->
-
-<!-- Common elements to include throughout:
-1. Template variables: [[= product_name =]], [[= product_name_base =]], [[= user_doc =]], etc.
-2. Images: Use descriptive filenames and alt text
-3. Links: Internal links to related documentation, external links to pricing/contact
-4. Code examples: If applicable, include configuration or code snippets
-5. Screenshots: For UI-based features, include relevant screenshots
-6. Diagrams: For complex workflows or architectures
-7. Tables: For structured information (buttons, features comparison, etc.)
-8. Lists: Both bulleted and numbered lists for steps or features
-9. Notes and warnings: Use appropriate formatting for important information
--->
-
-<!-- Special markdown features that may be used:
-- Code blocks with syntax highlighting: ```yaml, ```php, ```html+twig
-- Tables for structured data
-- Nested lists for hierarchical information
-- Bold and italic text for emphasis
-- Links with descriptive text
--->
-
-<!-- Template variable examples:
-- [[= product_name =]] - General Ibexa DXP
-- [[= product_name_base =]] - Ibexa DXP base
-- [[= product_name_exp =]] - Ibexa Experience  
-- [[= product_name_com =]] - Ibexa Commerce
-- [[= product_name_headless =]] - Ibexa Headless
-- [[= product_name_cloud =]] - Ibexa Cloud
-- [[= product_name_engage =]] - Ibexa Engage
-- [[= user_doc =]] - User documentation base URL
-- [[= symfony_doc =]] - Symfony documentation URL
 -->
