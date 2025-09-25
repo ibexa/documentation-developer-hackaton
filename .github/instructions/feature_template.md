@@ -1,5 +1,5 @@
 ---
-description: Use when asked to create a skeleton for a feature.
+description: Use when asked to create a skeleton doc for a new feature.
 ---
 
 # New Feature Documentation Template
