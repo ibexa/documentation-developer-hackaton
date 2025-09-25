@@ -1,0 +1,58 @@
+name: "Copilot Setup Steps"
+
+# Automatically run the setup steps when they are changed to allow for easy validation, and
+# allow manual testing through the repository's "Actions" tab
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+
+    # Set the permissions to the lowest permissions possible needed for your steps.
+    # Copilot will be given its own token for its operations.
+    permissions:
+      # If you want to clone the repository as part of your setup steps, for example to install dependencies, you'll need the `contents: read` permission. If you don't clone the repository in your setup steps, Copilot will do this for you automatically after the steps complete.
+      contents: read
+
+    steps:
+        - uses: actions/checkout@v4
+
+        - name: Setup PHP Action
+          uses: shivammathur/setup-php@v2
+          with:
+              php-version: ${{ matrix.php }}
+              coverage: none
+              extensions: "pdo_sqlite, gd"
+              tools: cs2pr
+
+        -   name: Add composer keys for private packagist
+            run: |
+                composer config http-basic.updates.ibexa.co $SATIS_NETWORK_KEY $SATIS_NETWORK_TOKEN
+                composer config github-oauth.github.com $TRAVIS_GITHUB_TOKEN
+            env:
+                SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
+                SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
+                TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+
+        - uses: ramsey/composer-install@v3
+          with:
+              dependency-versions: highest
+
+
+        - name: Set up Python 3.13
+          uses: actions/setup-python@v3
+          with:
+              python-version: 3.13
+
+        - name: Install dependencies
+          run: |
+              python -m pip install --upgrade pip
+              if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
