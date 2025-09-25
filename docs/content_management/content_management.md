@@ -14,5 +14,6 @@ page_type: landing_page
     "content_management/forms/forms",
     "content_management/taxonomy/taxonomy",
     "content_management/workflow/workflow",
+    "content_management/collaborative_editing/collaborative_editing_guide",
     "content_management/data_migration/data_migration",
 ], columns=4) =]]
