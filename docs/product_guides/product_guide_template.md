@@ -24,9 +24,6 @@ edition: <!-- For edition-specific products (e.g., experience, commerce) -->
 
 [Product description paragraph explaining the main functionality and value proposition]
 
-<!-- Include an image if available -->
-![[[= feature_name =]]](feature_name_image.png)
-
 ## Availability
 
 <!-- Information about licensing, editions, and how to get access -->
