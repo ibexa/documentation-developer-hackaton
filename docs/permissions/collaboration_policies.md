@@ -5,9 +5,9 @@ page_type: reference
 
 # Collaboration Policies
 
-The Ibexa Collaboration bundle enables multiple users to collaborate on content items through sessions, invitations, and real-time editing.
+The Ibexa Collaboration bundle enables multiple users to collaborate on content items through collaboration sessions, user invitations, and real-time editing capabilities. This functionality allows teams to work together seamlessly, with options for both internal users (with editing or preview permissions) and external users (preview-only access) to participate in the content creation and review process.
 
-This document outlines the policies for managing collaboration features.
+This document outlines the policies required to manage collaboration features, including session management, participant invitations, permission control, and shareable link administration.
 
 ## Available policies
 
