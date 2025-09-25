@@ -126,6 +126,15 @@ You can also [contact us](https://www.ibexa.co/about-ibexa/contact-us) or [one o
 
 [Step-by-step instructions or links to getting started guides]
 
+<!-- Example configuration if needed:
+``` yaml
+# Example configuration
+key: value
+nested:
+    option: setting
+```
+-->
+
 For more information, see [related documentation]([[= user_doc =]]/path/to/user/guide/).
 
 ## Benefits
@@ -149,6 +158,26 @@ For more information, see [related documentation]([[= user_doc =]]/path/to/user/
 <!-- Additional sections that may be needed for specific products: -->
 
 <!--
+## Interface/User Interface
+[Detailed description of the user interface, if applicable]
+
+### [Product] interface
+
+[Product] has a plain and intuitive interface. You can [main task] without having advanced technical skills.
+
+![Product interface](product_interface.png)
+
+[Product] user interface consists of:
+
+A. [Component 1]
+B. [Component 2] 
+C. [Component 3]
+
+|Button/Component|Description|
+|----------------|-----------|
+|![Icon](icon.png)|[Description of what this component does]|
+|![Icon](icon2.png)|[Description of what this component does]|
+
 ## Integrations
 [Information about third-party integrations]
 
@@ -163,6 +192,20 @@ For more information, see [related documentation]([[= user_doc =]]/path/to/user/
 
 ## API Reference
 [Links to relevant API documentation]
+
+## Models/Types
+[For products that have different model types or configurations]
+
+[Product] includes the following [model/type] types:
+
+- [Type 1] - [description of what this type does]
+- [Type 2] - [description of what this type does] 
+- [Type 3] - [description of what this type does]
+
+## Scenarios
+[For products that work with different scenarios]
+
+[Scenarios description and how they work]
 -->
 
 <!-- Common elements to include throughout:
@@ -172,6 +215,17 @@ For more information, see [related documentation]([[= user_doc =]]/path/to/user/
 4. Code examples: If applicable, include configuration or code snippets
 5. Screenshots: For UI-based features, include relevant screenshots
 6. Diagrams: For complex workflows or architectures
+7. Tables: For structured information (buttons, features comparison, etc.)
+8. Lists: Both bulleted and numbered lists for steps or features
+9. Notes and warnings: Use appropriate formatting for important information
+-->
+
+<!-- Special markdown features that may be used:
+- Code blocks with syntax highlighting: ```yaml, ```php, ```html+twig
+- Tables for structured data
+- Nested lists for hierarchical information
+- Bold and italic text for emphasis
+- Links with descriptive text
 -->
 
 <!-- Template variable examples:
