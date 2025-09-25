@@ -41,7 +41,7 @@ month_change: true  # if this is a new addition
 #### 2. Feature Guide (`docs/{feature}/{feature}_guide.md`)
 **Location:** `docs/{feature_name}/{feature_name}_guide.md`
 
-Use the instructions product_guide_template.md
+Use the instructions from the "templates/product_guide_template.md" file.
 
 #### 3. Installation Guide (`docs/{feature}/install_{feature}.md`)
 **Location:** `docs/{feature_name}/install_{feature_name}.md`
