@@ -101,6 +101,7 @@ nav:
             - Trash events: api/event_reference/trash_events.md
             - Twig Components: api/event_reference/twig_component_events.md
             - AI Action events: api/event_reference/ai_action_events.md
+            - Collaboration events: api/event_reference/collaboration_events.md
             - Discounts events: api/event_reference/discounts_events.md
             - Other events: api/event_reference/other_events.md
     - Administration:
@@ -280,7 +281,12 @@ nav:
                 - URL field type: content_management/field_types/field_type_reference/urlfield.md
                 - User field type: content_management/field_types/field_type_reference/userfield.md
         - Collaborative editing:
-            - Collaborative editing product guide: content_management/collaborative_editing/collaborative_editing_guide.md
+            - Collaborative editing guide: content_management/collaborative_editing/collaborative_editing_guide.md
+            - Installation: content_management/collaborative_editing/collaborative_editing_installation.md
+            - Usage: content_management/collaborative_editing/collaborative_editing_usage.md
+            - Permissions: content_management/collaborative_editing/collaborative_editing_permissions.md
+            - PHP API: content_management/collaborative_editing/collaborative_editing_api.md
+            - Events and customization: content_management/collaborative_editing/collaborative_editing_events.md
     - Templating:
         - Templating: templating/templating.md
         - Render content:
